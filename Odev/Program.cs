@@ -19,7 +19,7 @@ namespace Odev
                 sayilar[i] = i;
             }
             DateTime son = DateTime.Now;
-            Console.WriteLine("Dizi atama süresi: " + Convert.ToString(son - ilk));
+            Console.WriteLine("Dizi Başlatma süresi: " + Convert.ToString(son - ilk));
             Console.WriteLine("******************************************************\n");
 
             ilk = DateTime.Now;
